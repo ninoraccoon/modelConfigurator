@@ -1,0 +1,31 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# IDEs and editors
+.vs/
+obj/
+bin/
+aspnet-core/src/modelConfigurator.Web.Host/App_Data/Logs/
+aspnet-core/src/modelConfigurator.Web.Mvc/App_Data/Logs/
+aspnet-core/src/modelConfigurator.Migrator/Logs/Logs.txt
+
+#node
+reactjs/node_modules/
+reactjs/typings/
+reactjs/npm-debug.log
+
+# client-react
+reactjst/components/*.js
+client-react.test/build
+!client-react.test/build/client-react/styles/
+
+# ops
+ops/hosts
+ops/config.yml
+ops/*.retry
+
+# other
+*.js.map
+
+# IDE
+.idea/
+.vs/
